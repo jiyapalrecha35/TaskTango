@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/TaskTango/static/css/main.073c9b0a.css",
-    "main.js": "/TaskTango/static/js/main.82afd8d4.js",
+    "main.js": "/TaskTango/static/js/main.4308b972.js",
     "static/js/787.f237a53c.chunk.js": "/TaskTango/static/js/787.f237a53c.chunk.js",
     "index.html": "/TaskTango/index.html",
     "main.073c9b0a.css.map": "/TaskTango/static/css/main.073c9b0a.css.map",
-    "main.82afd8d4.js.map": "/TaskTango/static/js/main.82afd8d4.js.map",
+    "main.4308b972.js.map": "/TaskTango/static/js/main.4308b972.js.map",
     "787.f237a53c.chunk.js.map": "/TaskTango/static/js/787.f237a53c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.82afd8d4.js"
+    "static/js/main.4308b972.js"
   ]
 }

@@ -54,13 +54,11 @@ function App() {
 
         <Switch>
           <Route exact path="/about">
-            <Navbar title="TaskTango" mode={mode} toggleMode={toggleMode} />
             <About mode={mode} />
             <Footer mode={mode} />
           </Route>
 
           <Route exact path="/add">
-            <Navbar title="TaskTango" mode={mode} toggleMode={toggleMode} />
             <AddTodo addTodo={addTodo} mode={mode} />
             <Todos todo={todo} onDelete={onDelete} />
             <Footer mode={mode} />

@@ -51,6 +51,8 @@ function App() {
     <>
       <Router>
         <Navbar title="TaskTango" landingpage="Home" mode={mode} toggleMode={toggleMode} />
+        <Todos todo={todo} onDelete={onDelete} />
+        <Footer mode={mode} />
         <Switch>
           <Route exact path="/about">
             <Navbar title="TaskTango" mode={mode} toggleMode={toggleMode} />
@@ -65,11 +67,6 @@ function App() {
             <Footer mode={mode} />
           </Route>
 
-          <Route exact path="/">
-            {/* <Navbar title="TaskTango" mode={mode} toggleMode={toggleMode} /> */}
-            <Todos todo={todo} onDelete={onDelete} />
-            <Footer mode={mode} />
-          </Route>
         </Switch>
       </Router>
     </>
